@@ -6,7 +6,7 @@
 <body>
     <?php 
      echo "<h2>PHP Super Global</h2>";
-       $d= 87;
+       $d= "Rohnit";
        function demo(){
         echo $GLOBALS['d'];
        }
@@ -21,8 +21,7 @@
        echo "<br>";
        echo $d;
         echo "<br>";
-       // Creating Global Variable
-       $g = 30;
+       $g = "Rohnit";
        echo $GLOBALS["g"];
 
        echo "<h4>SERVER</h4>";
@@ -37,6 +36,8 @@
        echo $_SERVER['HTTP_USER_AGENT'];
        echo "<br>";
        echo $_SERVER['SCRIPT_NAME'];
+       echo "<br>";
+       echo $_SERVER['REMOTE_HOST'];
 
        echo "<h4>REQUEST</h4>";
 
